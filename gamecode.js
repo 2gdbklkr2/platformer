@@ -13,8 +13,8 @@ var canvas = document.getElementById("canvas"),
     player = {
         x: width / 2,
         y: height - 15,
-        width: 5,
-        height: 5,
+        width: 15,
+        height: 15,
         speed: 3,
         velX: 0,
         velY: 0,
@@ -86,7 +86,7 @@ boxes.push({
 });
 
 coins.push({
-    x: 120,
+    x: 150,
     y: 170,
     width: 10,
     height: 10
